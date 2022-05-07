@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  padding: 30px;
+}
+
+.removeBtns {
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.removeBtns button {
+  padding: 5px 50px;
+  font-size: large;
+}
+
+.clear {
+  background-color: rgb(173, 216, 230);
+}
+.delete {
+  background-color: rgb(240, 128, 128);
+}
+.btns {
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  width: 22%;
+  padding: 10px;
+  background-color: lightgray;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.btn:hover {
+  background-color: white;
+}
